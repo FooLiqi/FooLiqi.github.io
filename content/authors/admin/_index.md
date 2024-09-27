@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Prof. Fumin Zhang
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Fumin
+last_name: Zhang
 
 # Is this the primary user of the site?
 superuser: true
@@ -14,7 +14,7 @@ role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: 
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
