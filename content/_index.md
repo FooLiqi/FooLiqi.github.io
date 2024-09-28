@@ -1,15 +1,14 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-09-27 
 type: landing
 
 sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Flexible Autonomy and Robotics Lab
       image:
         filename: welcome.jpg
       text: |
