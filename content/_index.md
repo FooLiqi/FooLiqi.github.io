@@ -1,21 +1,61 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: Home
 date: 2024-09-27 
 type: landing
 
 sections:
-  - block: hero
+  - block: markdown
     content:
-      title: |
-        Flexible Autonomy and Robotics Lab
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
+      title: >
+        <span style="color: white;">Flexible Autonomy and Robotics Lab</span>
+      subtitle: >
+        <span style="color: #C0C0C0;">An academic research lab in Hong Kong University of Science and Technology</span>
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: ri-view1.jpeg
+          filters:
+            brightness: 0.6
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['200px', '0', '200px', '0']
+      css_class: d-flex align-items-center
+      
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |-
+        This research group consists of graduate students in electrical engineering and robotics under the supervision of [Prof. Fumin Zhang](author/fumin-zhang/) at the Hong Kong University of Science and Technology. A few areas of research in which our group is actively engaged are bio-inspired autonomy, human-robot interaction, autonomous underwater vehicles, mobile sensing networks, and cyber-physical systems.
+    design:
+      columns: '1'
+      spacing:
+        padding: ['50px', '0', '50px', '0']
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+  - block: collection
+    content:
+      title: Research Topics
+      subtitle:
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: card
+      columns: '1'
+      
   - block: collection
     content:
       title: Latest News
@@ -34,46 +74,26 @@ sections:
     design:
       view: card
       columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 
   - block: collection
     content:
-      title: Latest Preprints
+      title: Latest Publications
       text: ""
       count: 5
       filters:
         folders:
           - publication
-        publication_type: 'article'
+        # publication_type: 'article'
     design:
       view: citation
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle:
+  #     text:
+  #   design:
+  #     columns: '1'
+
 ---

@@ -38,14 +38,14 @@ header:
     show_logo: true
     show_language: false
     show_day_night: true
-    show_search: true
+    show_search: false
     highlight_active_link: false
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} FARL. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -100,7 +100,7 @@ features:
   map:
     provider: 'mapnik'
     api_key: ''
-    zoom: 15
+    zoom: 15.5
 
 # Extensions
 
