@@ -1,12 +1,14 @@
 ---
-title: Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020
-date: 2020-12-02
-image:
-  focal_point: 'top'
-tags: ['news']
+title: Embodied Intelligence
+date: 2020-12-01
+tags: ['research topic']
 ---
 
-Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
+Embodied Intelligence, or Embodied AI, emphasizes the role of physical embodiment in cognitive processes, suggesting that intelligence emerges from the interaction between an agent's body, environment, and cognitive systems. Our lab explores this concept to develop more adaptable and effective AI systems for real-world applications.
+
+
+
+
 
 <!--more-->
 

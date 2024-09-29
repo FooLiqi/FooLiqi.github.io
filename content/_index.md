@@ -40,20 +40,13 @@ sections:
   - block: collection
     content:
       title: Research Topics
-      subtitle:
-      text:
+      text: ""
       count: 5
       filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
+        tag: 'research topic'
       page_type: post
     design:
-      view: card
+      view: showcase
       columns: '1'
       
   - block: collection
@@ -67,7 +60,7 @@ sections:
         category: ''
         exclude_featured: false
         publication_type: ''
-        tag: ''
+        tag: 'news'
       offset: 0
       order: desc
       page_type: post

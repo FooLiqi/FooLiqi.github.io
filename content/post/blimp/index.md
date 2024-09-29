@@ -1,12 +1,12 @@
 ---
-title: Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020
-date: 2020-12-02
-image:
-  focal_point: 'top'
-tags: ['news']
+title: Blimp
+date: 2020-12-01
+
+tags: ['research topic']
+
 ---
 
-Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
+These blimps offer several advantages over UAVs, such as being inherently safe and energy efficient, with longer battery life. In addition, miniature blimps could be a friendly and useful tool for specific environments, particularly for indoor interaction with people. They are stable, non-threatening, and could be effective at detecting and following individuals.
 
 <!--more-->
 

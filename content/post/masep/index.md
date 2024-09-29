@@ -1,12 +1,10 @@
 ---
-title: Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020
-date: 2020-12-02
-image:
-  focal_point: 'top'
-tags: ['news']
+title: MASEP
+date: 2020-12-01
+tags: ['research topic']
 ---
 
-Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
+Marine Automatic Swarm Experiment Platform (MASEP). MASEP is a tabletop-sized, marine swarm robotics testbed for evaluating underwater robotic swarm controllers, novel communication strategies, and more in a simulated aquatic environment. 
 
 <!--more-->
 
