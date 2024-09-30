@@ -1,20 +1,20 @@
 ---
 # Display name
-title: CAI Jinzhi
+title: LYU Minen
 
 # Full name (for SEO)
-first_name: Jinzhi
-last_name: CAI
+first_name: Minen
+last_name: LYU
 
 # Username (this should match the folder name)
 authors:
-  - jinzhi cai
+  - minen lyu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Ph.D Student(2023~present)
+role: PhD student(2024-present)
 
 # Organizations/Affiliations
 organizations:
@@ -26,8 +26,7 @@ bio: ""
 
 interests:
 
-year: 2023
-
+year: 2024
 # education:
 #   courses:
 #     - course: PhD in Artificial Intelligence

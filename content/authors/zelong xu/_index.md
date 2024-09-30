@@ -1,20 +1,20 @@
 ---
 # Display name
-title: CAI Jinzhi
+title: XU Zelong
 
 # Full name (for SEO)
-first_name: Jinzhi
-last_name: CAI
+first_name: Zelong
+last_name: XU
 
 # Username (this should match the folder name)
 authors:
-  - jinzhi cai
+  - zelong xu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Ph.D Student(2023~present)
+role: MPhil student(2024-present)
 
 # Organizations/Affiliations
 organizations:
@@ -26,7 +26,7 @@ bio: ""
 
 interests:
 
-year: 2023
+year: 2024
 
 # education:
 #   courses:
@@ -69,7 +69,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - PhD Students
+  - MPhil Students
 ---
 
 

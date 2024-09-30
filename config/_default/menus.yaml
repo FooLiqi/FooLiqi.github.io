@@ -7,15 +7,24 @@ main:
   - name: Home
     url: /
     weight: 5
-  - name: Research Topics
+  - name: Researchs
     url: research
     weight: 10
   - name: News
     url: post
     weight: 20
   - name: People
-    url: people
+    identifier: group
+    # url: people
     weight: 30
+  - name: Prof. Fumin Zhang
+    parent: group
+    url: ../author/fumin-zhang/
+    weight: 10
+  - name: Group members
+    parent: group
+    url: people
+    weight: 20
   # - name: Events
   #   url: event
   #   weight: 40
