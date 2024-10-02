@@ -39,7 +39,7 @@ sections:
         
   - block: collection
     content:
-      title: Research Topics
+      title: Researchs
       text: ""
       count: 5
       filters:
@@ -68,7 +68,8 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '1'
+      # columns: '1'
+      flip_alt_rows: false
 
   - block: collection
     content:

@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: Blimp
-        content: 'Indoor Miniature Autonomous Blimps'
+      - title: Miniature Autonomous Blimp
+        content: 'Longer flight times and safer human-robot interactions'
         align: right
         background:
           image:
@@ -23,7 +23,7 @@ sections:
           # icon_pack: fas
           text: Learn More
           url: ../project/blimp/
-      - title: MASEP
+      - title: Marine Robotic
         content: 'Marine Automatic Swarm Experiment Platform, a tabletop-sized, marine swarm robotics testbed'
         align: center
         background:

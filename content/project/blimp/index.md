@@ -1,7 +1,7 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Blimp"
+title: "Miniature Autonomous Blimp"
 summary: ""
 authors: []
 tags: []
@@ -40,7 +40,9 @@ url_video: ""
 slides: ""
 ---
 
-These blimps offer several advantages over UAVs, such as being inherently safe and energy efficient, with longer battery life. In addition, miniature blimps could be a friendly and useful tool for specific environments, particularly for indoor interaction with people. They are stable, non-threatening, and could be effective at detecting and following individuals.
+In our lab, we develop blimp-based robotic systems as an alternative to traditional UAVs, focusing on indoor and human-interactive environments. These blimps offer several advantages, including inherent safety, energy efficiency, and extended battery life. Miniature blimps, in particular, are ideal for stable, non-threatening indoor operation, making them effective tools for detecting and following individuals in environments that require close human interaction.
+
+
 
 <!--more-->
 

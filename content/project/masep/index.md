@@ -1,7 +1,7 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Masep"
+title: "Marine Robotic"
 summary: ""
 authors: []
 tags: []
@@ -40,12 +40,16 @@ url_video: ""
 slides: ""
 ---
 
-Marine Automatic Swarm Experiment Platform (MASEP). MASEP is a tabletop-sized, marine swarm robotics testbed for evaluating underwater robotic swarm controllers, novel communication strategies, and more in a simulated aquatic environment. 
+Marine Robotics Research with MASEP Our lab is advancing underwater robotic systems through the development of MASEP (Miniature Autonomous Submersible Experiment Platform), a tabletop-sized research platform designed for controlled experimentation with miniature Autonomous Underwater Vehicles (AUVs).
 
 <!--more-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+Key Features of MASEP:
 
-Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.
+* Four Degrees of Freedom (DOF): Each AUV can move in multiple directions, with passive stabilization provided by internal ballast and buoyancy.
 
-Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.
+* Vision-Based Localization: A camera tracks the AUVs within the tank, simulating GPS-like localization for underwater environments.
+
+* Real-Time Communication: The system allows seamless data exchange and control between the AUVs and a central server.
+
+MASEP provides a flexible and cost-effective platform for testing robotic navigation, communication, and control strategies, accelerating the development of technologies for real-world underwater applications.

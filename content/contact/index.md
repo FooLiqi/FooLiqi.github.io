@@ -34,7 +34,7 @@ sections:
         
         ### Contact Details
         
-        Rm.114, Cheng Kar-Shun Robotics Institute, Lo Ka Chung University Center, HKUST.
+        Rm.108, Cheng Kar-Shun Robotics Institute, Lo Ka Chung University Center, HKUST.
         
       # email: eefumin@ust.hk
       # phone: 888 888 88 88
