@@ -22,7 +22,7 @@ sections:
           # icon: graduation-cap
           # icon_pack: fas
           text: Learn More
-          url: ../post/blimp/
+          url: ../project/blimp/
       - title: MASEP
         content: 'Marine Automatic Swarm Experiment Platform, a tabletop-sized, marine swarm robotics testbed'
         align: center
@@ -37,7 +37,7 @@ sections:
           # icon: graduation-cap
           # icon_pack: fas
           text: Learn More
-          url: ../post/masep/
+          url: ../project/masep/
       - title: Embodied Intelligence
         content: 'Embodied Intelligence, the study of how robots can learn and act like humans'
         align: right
@@ -52,7 +52,7 @@ sections:
           # icon: graduation-cap
           # icon_pack: fas
           text: Learn More
-          url: ../post/embodied-intelligence/
+          url: ../project/embodied-intelligence/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
@@ -61,4 +61,9 @@ sections:
       loop: false
       # Duration of transition between slides (in ms)
       interval: 2000
+      
+# Optional banner image (relative to `assets/media/` folder).
+banner:
+  caption: ''
+  image: ''
 ---

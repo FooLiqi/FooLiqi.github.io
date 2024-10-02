@@ -43,8 +43,10 @@ sections:
       text: ""
       count: 5
       filters:
-        tag: 'research topic'
-      page_type: post
+        folders:
+          - project
+      sort_by: 'Date'
+      sort_ascending: true
     design:
       view: showcase
       columns: '1'
