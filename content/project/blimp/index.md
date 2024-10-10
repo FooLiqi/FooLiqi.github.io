@@ -40,14 +40,21 @@ url_video: ""
 slides: ""
 ---
 
-In our lab, we develop blimp-based robotic systems as an alternative to traditional UAVs, focusing on indoor and human-interactive environments. These blimps offer several advantages, including inherent safety, energy efficiency, and extended battery life. Miniature blimps, in particular, are ideal for stable, non-threatening indoor operation, making them effective tools for detecting and following individuals in environments that require close human interaction.
+With advancements in drone technology, aerial robots are increasingly being used in indoor applications such as surveillance and inspection. However, most existing aerial platforms, like quadcopters, still face challenges with safety and endurance during human interaction. To address these issues, we have developed a Miniature Autonomous Blimp that meets indoor safety requirements while offering significantly longer flight times.
 
 
 
 <!--more-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+### Research Progress
+In our previous work, we decomposed autonomous flight into a series of motion primitives. However, due to the high coupling between lateral and longitudinal movements with pitch and roll motions, undesirable oscillations were often observed. These oscillations resulted in inaccurate sensor readings, unstable video streams from onboard cameras, and a less comfortable human-robot interaction experience. To improve flight behavior and enhance the human-robot interaction experience, we established a six-degree-of-freedom (6-DOF) motion model and identified parameters related to three degrees of freedom (3-DOF) in a vertical plane. A flight controller was developed to enable constant forward and sideways velocity with reduced oscillation.
 
-Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.
-
-Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.
+### Future Plans
+Looking ahead, we plan to identify a full dynamic motion model for the blimp and update the flight controller to further enhance flight stability and precision.
+Key Features and Advantages
+1.	Safe Human-Robot Interaction
+Traditional unmanned aerial vehicles (UAVs) require protective covers when flying indoors to prevent harm from high-speed propellers. They typically need safety nets or at least a 1-meter distance between the UAV and humans. In contrast, our blimp is equipped with a soft balloon that poses no risk to humans, even at close proximity, allowing for safe flight near people.
+2.	Extended Flight Duration
+Quadcopters rely on high-speed rotating propellers to generate enough lift for hovering, which results in high power consumption. In comparison, the blimp’s balloon provides enough buoyancy for hovering. Despite having a battery capacity of only 450mAh (approximately 1/10th of traditional UAV batteries), our blimp can operate for over 45 minutes, whereas regular UAVs typically fly for about 30 minutes.
+3.	Expansion into Marine Research
+Conducting experiments with underwater robots in the ocean is costly and involves complex setups. However, our blimp exhibits similar fluid dynamics in the air as underwater robots do in water. This makes it a useful simulator for testing underwater robot algorithms, greatly reducing the cost and complexity of experiments for scientific research.
